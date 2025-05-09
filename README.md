@@ -13,11 +13,13 @@ Simply import the project, below will be a list of each utility with a code snip
 
 To retrieve screen height or width use the below
 ```dart
-  DpiUtil.getWidth(context);
-  DpiUtil.getHeight(context);
+  import 'package:draconian_utilities/dpi_util.dart';
+      DpiUtil.getWidth(context);
+      DpiUtil.getHeight(context);
 ```
 To retrieve a percentage of the screen height or width, implement the below
 ```dart
+  import 'package:draconian_utilities/dpi_util.dart';
   //percentOf will default to 100% if not provided
   DpiUtil.getPartialWidth(context, percentOf: .05);
   DpiUtil.getPartialHeight(context, percentOf: .05);
