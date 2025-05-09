@@ -4,22 +4,22 @@ import 'package:flutter/material.dart';
 class DpiUtil {
 
   ///Get Screen Width
-  double getWidth(BuildContext context) {
+  static double getWidth(BuildContext context) {
     return MediaQuery.of(context).size.width;
   }
 
   ///Get Screen Height
-  double getHeight(BuildContext context) {
+  static double getHeight(BuildContext context) {
     return MediaQuery.of(context).size.height;
   }
 
   ///Get percentage of screen height as DPI
-  double getPartialWidth(BuildContext context, {double percentOf = 1}) {
+  static double getPartialWidth(BuildContext context, {double percentOf = 1}) {
     return (MediaQuery.of(context).size.width * percentOf);
   }
 
   ///Get percentage of screen height as DPI
-  double getPartialHeight(BuildContext context, {double percentOf = 1}) {
+  static double getPartialHeight(BuildContext context, {double percentOf = 1}) {
     return (MediaQuery.of(context).size.height * percentOf);
   }
 
