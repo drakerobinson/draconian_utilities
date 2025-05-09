@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 ///DPI Utility is purely to save me about 5 seconds of typing anytime I have to do display specific dpi percentage non-sense
 class DpiUtil {
 
+  DpiUtil._();
+
   ///Get Screen Width
   static double getWidth(BuildContext context) {
     return MediaQuery.of(context).size.width;
