@@ -28,4 +28,4 @@ To retrieve a percentage of the screen height or width, implement the below
 
 ## Additional information
 
-This is purely to save myself time and pad my resume; but I hope others will find it helpful.
+This is purely to save myself time; but I hope others will find it helpful.
