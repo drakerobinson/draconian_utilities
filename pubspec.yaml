@@ -1,6 +1,6 @@
 name: draconian_utilities
 description: "A simple collection of utilities to save myself seconds each day"
-version: 0.0.2
+version: 0.0.2+1
 homepage:
 
 environment:

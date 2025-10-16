@@ -11,7 +11,14 @@ Simply import the project, below will be a list of each utility with a code snip
 
 ## Usage
 
-///TODO add before and after syntax
+I find the typical MediaQuery.of syntax clunky and, while not difficult to type. 
+I'd really rather not.
+
+```dart
+    ///The original syntax is as follows and often developers end up using it
+    ///far too much which is both ugly and time-consuming
+    MediaQuery.of(context).size; /*Append height or width accordingly*/
+```
 
 To retrieve screen height or width use the below
 ```dart
