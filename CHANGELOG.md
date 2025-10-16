@@ -1,3 +1,7 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* Initial commit
+
+## 0.0.2
+
+* Adds context extension methods to mirror the same functionality 
